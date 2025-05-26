@@ -25,6 +25,17 @@ body {
 }
 
 
+
+
+/* Footer */
+
 #contact {
     background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 2rem;
+}
+#contact .social-links i {
+    color: white;
+    font-size: 1.9rem;
+    padding: .5rem;
 }
