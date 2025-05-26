@@ -5,7 +5,11 @@
 /* CSS Variable */
 :root{
     --primary-font: "Bebas Neue", sans-serif;
-    --primary-color: #545454 /* Green */
+    --secondary-font: "Inter", sans-serif;
+    --primary-color: #545454; /* Green */
+    --secondary-color: #CCCCCC; /* Grey */
+    --highlight-color: #8c52ff; /* Purple */
+    --highlight-color-light: #b2a1ec; /* Light Purple */
 }
 
 /* Global styles */
@@ -22,7 +26,23 @@ body {
     background-color: var(--primary-color);
 }
 
+#navbar .logo {
+    width: 40px;
+}
 
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color-light);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
 
 
 /* Footer */
