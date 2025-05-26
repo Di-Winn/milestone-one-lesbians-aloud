@@ -5,16 +5,14 @@
 /* CSS Variable */
 :root{
     --primary-font: "Bebas Neue", sans-serif;
-    --primary-color: #00bf63 /* Green */
+    --primary-color: #545454 /* Green */
 }
-
 
 /* Global styles */
 
 body {
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
     font-family: 'Bebas Neue', sans-serif;
 }
 
