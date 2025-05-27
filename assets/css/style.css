@@ -79,7 +79,10 @@ h1, h2 {
     font-family: var(--secondary-font);
 }
 
-
+#creative-genres .card {
+    padding-bottom: 1rem;
+    border: none;
+}
 
 /* Buttons */
 
