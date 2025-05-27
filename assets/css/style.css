@@ -84,6 +84,38 @@ h1, h2 {
     border: none;
 }
 
+
+
+/* Events Section */
+
+#events {
+    background-color: var(--secondary-color);
+    background-image: url(../images/theatre-audience.jpeg);
+    background-size: cover;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#events h2 {
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+#events h3 {
+    background-color: var(--highlight-color-light);
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+#events p {
+    background-color: var(--secondary-color);
+    padding: 10px 10px 10px 10px;
+}
+
+#events p {
+    font-family: var(--secondary-font);
+}
+
 /* Buttons */
 
 .custom-button-filled {
