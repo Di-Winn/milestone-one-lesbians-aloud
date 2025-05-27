@@ -75,3 +75,15 @@ body {
     border-color: var(--primary-color);
     font-family: var(--primary-font);
 }
+
+
+/* Media queries */
+
+/* Small screens and up (min-width 576px) */
+@media screen and (max-width: 576px) {
+    /* Make footer centered on small screens */
+    #contact {
+        text-align: center;
+        font-size: 80%;
+     }
+    }
