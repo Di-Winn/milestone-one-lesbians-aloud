@@ -64,6 +64,22 @@ h1, h2 {
 }
 
 
+/* Creative Genres */
+
+#creative-genres {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#creative-genres h5 {
+    color: var(--highlight-color);
+}
+
+#creative-genres p {
+    font-family: var(--secondary-font);
+}
+
+
 
 /* Buttons */
 
