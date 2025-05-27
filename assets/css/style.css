@@ -20,6 +20,11 @@ body {
     font-family: 'Bebas Neue', sans-serif;
 }
 
+h1, h2 {
+    font-family: var(--primary-font);
+    color:#8c52ff;
+}
+
 /* Navbar */
 
 #navbar {
@@ -29,6 +34,23 @@ body {
 #navbar .logo {
     width: 40px;
 }
+
+
+/* Header */
+
+#header {
+    padding-top: 1rem;
+}
+
+
+
+/* Carousel */
+
+#carouselExampleAutoplaying {
+    text-align: center;
+}
+
+
 
 /* Buttons */
 
@@ -85,6 +107,9 @@ body {
     font-family: var(--primary-font);
 }
 
+#contact h2 {
+    color: white;
+}
 
 /* Media queries */
 
