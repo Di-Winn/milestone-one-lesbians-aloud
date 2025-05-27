@@ -40,8 +40,21 @@ h1, h2 {
 
 #header {
     padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: url(../images/stage-lighting.png);
+    background-size: cover;
+    background-color: var(--secondary-color);
 }
 
+#header h2 {
+    color: var(--highlight-color-light);
+}
+
+#header p {
+    font-family: var(--secondary-font);
+    background-color: var(--secondary-color);
+    padding: 7px 7px 7px 7px;
+}
 
 
 /* Carousel */
