@@ -18,6 +18,7 @@ body {
     min-height: 100vh;
     display: flex;
     font-family: 'Bebas Neue', sans-serif;
+    padding-top: 66px; /* Added to push down the header to compensate for the fixed navbar */
 }
 
 h1, h2 {
@@ -69,6 +70,7 @@ h1, h2 {
 #creative-genres {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    scroll-margin-top: 4rem; /* added to stop section header being covered by the fixed navigation */
 }
 
 #creative-genres h5 {
@@ -93,6 +95,7 @@ h1, h2 {
     background-size: cover;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    scroll-margin-top: 4rem;
 }
 
 #events h2 {
