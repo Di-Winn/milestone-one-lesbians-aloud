@@ -123,6 +123,23 @@ h1, h2 {
     font-size: 0.7rem;
 }
 
+
+/* Get Involved Section */
+
+#get-involved {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#get-involved h5 {
+    background-color: var(--highlight-color-light);
+    color: white;
+}
+
+#get-involved p {
+    font-family: var(--secondary-font);
+}
+
 /* Buttons */
 
 .custom-button-filled {
@@ -181,6 +198,7 @@ h1, h2 {
 #contact h2 {
     color: white;
 }
+
 
 /* Media queries */
 
