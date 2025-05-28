@@ -164,8 +164,13 @@ h1, h2 {
     line-height: 1em;
 }
 
-#photos {
-    line-height: 0;
+#photo-gallery {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#photo-gallery .card {
+    margin: 10px;
 }
 
 
