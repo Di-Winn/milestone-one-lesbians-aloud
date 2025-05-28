@@ -97,7 +97,7 @@ h1, h2 {
 }
 
 #events h2 {
-    background-color: black;
+    background-color: rgba(0,0,0,.8);
     padding: 10px 10px 10px 10px;
 }
 
