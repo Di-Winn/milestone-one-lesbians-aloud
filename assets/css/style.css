@@ -143,6 +143,32 @@ h1, h2 {
     margin: 1rem;
 }
 
+
+/* Gallery Layout */
+
+
+#gallery-header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: url(../images/stage-lighting.png);
+    background-size: cover;
+    background-color: var(--secondary-color);
+}
+
+#gallery-header h1 {
+    background-color: rgba(0,0,0,.8);
+}
+
+#gallery img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
+
 /* Buttons */
 
 .custom-button-filled {
