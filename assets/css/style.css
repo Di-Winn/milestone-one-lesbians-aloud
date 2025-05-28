@@ -80,8 +80,7 @@ h1, h2 {
 }
 
 #creative-genres .card {
-    padding-bottom: 1rem;
-    border: none;
+    margin: 1rem;
 }
 
 
@@ -138,6 +137,10 @@ h1, h2 {
 
 #get-involved p {
     font-family: var(--secondary-font);
+}
+
+#get-involved .card {
+    margin: 1rem;
 }
 
 /* Buttons */
