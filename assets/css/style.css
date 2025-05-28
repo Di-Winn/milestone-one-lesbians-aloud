@@ -177,6 +177,23 @@ h1, h2 {
 }
 
 
+/* Contact page layout */
+
+#contact-header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: url(../images/stage-lighting.png);
+    background-size: cover;
+    background-color: var(--secondary-color);
+}
+
+#contact-header p {
+    font-family: var(--secondary-font);
+    background-color: var(--secondary-color);
+    padding: 7px 7px 7px 7px;
+}
+
+
 /* Buttons */
 
 .custom-button-filled {
