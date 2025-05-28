@@ -221,3 +221,33 @@ h1, h2 {
         font-size: 1rem;
     }
 }
+
+
+/* Medium screens and up (min-width 768px) */
+
+@media screen and (min-width: 768px) {
+    /* Make the Get Involved cards the same height */
+    #get-involved .card-body {
+        min-height: 376px;
+    }
+}
+
+
+/* Large screens and up (min-width 992px) */
+
+@media screen and (min-width: 992px) {
+    /* Make the Get Involved cards the same height */
+    #get-involved .card-body {
+        min-height: auto;
+    }
+}
+
+
+/* XL screens and up (min-width 1200px) */
+
+@media screen and (min-width: 1200px) {
+    /* Make the Get Involved cards the same height */
+    #get-involved .card-body {
+        min-height: 256px;
+    }
+}
