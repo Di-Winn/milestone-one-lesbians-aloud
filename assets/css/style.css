@@ -116,6 +116,13 @@ h1, h2 {
     font-family: var(--secondary-font);
 }
 
+#events .table {
+    /* Setting font small enough that the table doesn't overrun on xs screens. 
+    Size is reset in a media query for when the screen size is bigger */
+    font-family: var(--secondary-font);
+    font-size: 0.7rem;
+}
+
 /* Buttons */
 
 .custom-button-filled {
@@ -178,6 +185,7 @@ h1, h2 {
 /* Media queries */
 
 /* Small screens and up (min-width 576px) */
+
 @media screen and (max-width: 576px) {
     /* Make footer centered on small screens */
     #contact {
@@ -185,3 +193,10 @@ h1, h2 {
         font-size: 80%;
      }
     }
+
+@media screen and (min-width: 576px) {
+    /* Increases font size in tables when screens are big enough */
+    #events .table {
+        font-size: 1rem;
+    }
+}
