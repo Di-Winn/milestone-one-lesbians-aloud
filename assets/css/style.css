@@ -193,6 +193,44 @@ h1, h2 {
     padding: 7px 7px 7px 7px;
 }
 
+#contact-forms {
+    padding: 20px 20px 20px 20px;
+}
+
+#contact-us {
+    background-color: var(--secondary-color);
+    padding: 20px 20px 20px 20px;
+}
+
+#contact-us h2 {
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#contact-us .button {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#booking-form {
+    background-color: #dad1f8;
+    padding: 20px 20px 20px 20px;
+}
+
+#booking-form h2 {
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#booking-form .button {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
 
 /* Buttons */
 
