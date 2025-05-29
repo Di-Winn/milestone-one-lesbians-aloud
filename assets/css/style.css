@@ -26,6 +26,7 @@ h1, h2 {
     color:#8c52ff;
 }
 
+
 /* Navbar */
 
 #navbar {
@@ -234,6 +235,38 @@ h1, h2 {
 }
 
 
+/* Success page */
+
+#success-header {
+    padding-top: 1rem;
+}
+
+#success h2 {
+    text-align: center;
+}
+
+#success p {
+    font-family: var(--secondary-font);
+}
+
+#success .button {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#logo .card {
+    margin: auto;
+    border: 0;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+
 /* Buttons */
 
 .custom-button-filled {
@@ -306,6 +339,14 @@ h1, h2 {
      }
     }
 
+@media screen and (max-width: 576px) {
+    /* Make success page text centered on small screens */
+    #success {
+        text-align: center;
+        font-size: 80%;
+     }
+    }
+
 @media screen and (min-width: 576px) {
     /* Increases font size in tables when screens are big enough */
     #events .table {
@@ -323,6 +364,13 @@ h1, h2 {
     }
 }
 
+@media screen and (min-width: 768px) {
+    /* Make the logo fit the screen better and not too big */
+    #logo .card {
+    max-width: 50%;
+    }
+}
+
 
 /* Large screens and up (min-width 992px) */
 
@@ -333,6 +381,13 @@ h1, h2 {
     }
 }
 
+@media screen and (min-width: 992px) {
+    /* Make the logo fit the screen better and not too big */
+    #logo .card {
+    max-width: 40%;
+    }
+}
+
 
 /* XL screens and up (min-width 1200px) */
 
@@ -340,5 +395,12 @@ h1, h2 {
     /* Make the Get Involved cards the same height */
     #get-involved .card-body {
         min-height: 256px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* Make the Get Involved cards the same height */
+    #logo .card {
+    max-width: 30%;
     }
 }
