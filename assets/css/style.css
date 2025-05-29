@@ -284,6 +284,13 @@ h1, h2 {
     padding: 7px 7px 7px 7px;
 }
 
+#our-aims {
+    background-color: var(--secondary-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: var(--secondary-font);
+}
+
 
 /* Buttons */
 
