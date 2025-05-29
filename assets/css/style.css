@@ -357,14 +357,6 @@ h1, h2 {
      }
     }
 
-@media screen and (max-width: 576px) {
-    /* Make success page text centered and smaller on small screens */
-    #success {
-        text-align: center;
-        font-size: 80%;
-     }
-    }
-
 @media screen and (min-width: 576px) {
     /* Increases font size in tables when screens are big enough */
     #events .table {
