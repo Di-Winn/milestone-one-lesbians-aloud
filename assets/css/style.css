@@ -267,6 +267,32 @@ h1, h2 {
 }
 
 
+/* About page section */
+
+#about-header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: url(../images/stage-lighting.png);
+    background-size: cover;
+    background-color: var(--secondary-color);
+}
+
+#about-header p {
+    background-color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    padding: 7px 7px 7px 7px;
+}
+
+#about-header img {
+    margin: auto;
+    border: 0;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
 /* Buttons */
 
 .custom-button-filled {
