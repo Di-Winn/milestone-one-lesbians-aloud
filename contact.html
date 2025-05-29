@@ -88,7 +88,7 @@
                             need, so please, do note in the form area provided any special requirements that you might have. We are in 
                             the lucky position of being able to arrange the seating according to need, unlike some purpose built
                             theatres. This is just another example of how we do things differently!<br><br>
-                            If you are interested in helping to finance our work, please use the general contact form and 
+                            If you are interested in helping to finance our work, please use the contact form and 
                             select the finance option from the dropdown menu. All of our work is funded by grants and donations.<br><br>
                             </p>
                 </div>
@@ -103,6 +103,8 @@
     <main>
 
         <!-- Contact Forms section -->
+
+        <!-- Contact Form -->
 
         <section id="contact-forms" class="container section">
             <div class="row">
@@ -119,9 +121,61 @@
                                 <input class="form-control" id="email" name="email" type="email" required>
                             </div>
                             <div class="col-12 col-md-10 col-xl-10">
-                                
+                                <label for="phone" class="form-label">Phone:</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-md-10 col-xl-10">
+                                <label for="contact-type" class="form-label">Contact Type:</label>
+                                <select id="contact-type" class="form-select" name="contact-type" required>
+                                    <option value="" selected>Select Option</option>
+                                    <option value="general-contact">General Contact</option>
+                                    <option value="get-involved">Get Involved</option>
+                                    <option value="press-enquiry">Press Enquiry</option>
+                                    <option value="financial-donations">Financial Donations</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-10 col-xl-10">
+                                <label for="contact-message" class="form-label">Message:</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
                             </div>
                         </div>
+                        <button type="submit" class="btn custom-button-filled mb-4">Submit</button>
+                    </form>
+                </div>
+                <div class="booking-form col-12 col-md-6 col-xl-6">
+                    <h2>Booking Form</h2>
+                    <form action="success.html" method="get">
+                        <div class="row">
+                            <div class="col-12 col-md-10 col-xl-10">
+                                <label for="name" class="form-label">Full Name:</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-md-10 col-xl-10">
+                                <label for="email" class="form-label">Email:</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-md-10 col-xl-10">
+                                <label for="phone" class="form-label">Phone:</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-md-10 col-xl-10">
+                                <label for="contact-type" class="form-label">Booking Enquiry for:</label>
+                                <select id="contact-type" class="form-select" name="contact-type" required>
+                                    <option value="" selected>Select Booking</option>
+                                    <option value="leeds-theatre">Now that's what I call Lesbian Theatre, Leeds</option>
+                                    <option value="corby-samba">Lesbian Samba Workshop, Corby</option>
+                                    <option value="bolton-poetry">Lesbian Poetry Readings,Bolton</option>
+                                    <option value="doncaster-musical">Lesbian: The Musical, Doncaster</option>
+                                    <option value="corby-singing">Lesbian Singing Workshop, Corby</option>
+                                    <option value="halifax-theatre">Anne Lister's Diaries, Halifax</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-10 col-xl-10">
+                                <label for="contact-message" class="form-label">Message (including special requirements):</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn custom-button-filled mb-4">Submit</button>
                     </form>
                 </div>
             </div>
