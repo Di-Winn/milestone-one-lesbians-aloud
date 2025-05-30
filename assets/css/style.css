@@ -246,10 +246,6 @@ h1, h2 {
     padding-top: 1rem;
 }
 
-#success h2 {
-    text-align: center;
-}
-
 #success p {
     font-family: var(--secondary-font);
 }

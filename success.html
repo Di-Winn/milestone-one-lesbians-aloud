@@ -86,14 +86,18 @@
         <section id="success" class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Thanks for getting in touch</h2>
+                    <h2 id="making-contact">Thanks for getting in touch!</h2>
                     <p>We really appreciate you taking the time to contact us today and want you to know that we 
                         have your message and will respond to you as soon as we are able. We are volunteer led, so 
-                        it might take a couple of days.<br><br>
-                        If you are looking to book some tickets to one of our fabulous events, we will message to 
+                        it might take a couple of days.<br><br></p>
+                    <h2 id=booking-tickets>Thanks for booking tickets!</h2>
+                    <p>If you are looking to book some tickets to one of our fabulous events, we will message to 
                         confirm that you are successfully on our list for seating allocation, and we will be in 
                         touch with your ticket details as soon as we have the seating plan available. At this point 
-                        we will also look to make contact to arrange for your payment to be collected.<br><br>
+                        we will also look to make contact to arrange for your payment to be collected.<br><br></p>
+                    <h2 id="joining-newsletter">Thanks for subscribing to our newsletter!</h2>
+                        <p>If you've signed up for our monthly newsletter, your first edition of the newsletter will be 
+                        with you very soon!</p>
                         <div class="button"><a href="index.html" class="btn custom-button-filled">Return to Homepage</a></div>
                     </p>
                 </div>
@@ -140,26 +144,25 @@
 
                 <!-- Newsletter sign-up allocated space -->
 
-                <!--<div class="col-sm-6">
+                <!-- Newletter Sign-up using a form from Bootstrap which is edited to suit -->
+
+                <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
                             <h3 class="card-title">Newsletter Sign-up!</h3>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn custom-button-filled">Sign-up now</a>
+                            <form id="email-sign-up-form" method="get" action="success.html">
+                                <div class="mb-3">
+                                    <label for="email-sign-up" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email-sign-up" aria-describedby="emailHelp" required>
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <button type="submit" class="btn custom-button-filled">Sign-up now</button>
+                            </form>
                         </div>
                     </div>
-                </div>-->
+                </div>
             </div>
         </div>
-            
-                    
-                    
-
-                    
-                
-    
-
-       
 
     </Footer>
 
