@@ -101,13 +101,14 @@ h1, h2, h3, h4, h5 {
 }
 
 #events h4 {
-    background-color: rgba(0,0,0,.8);
+    background-color: var(--highlight-color-light);
+    color: white;
     padding: 10px 10px 10px 10px;
 }
 
 #events h3 {
-    background-color: var(--highlight-color-light);
-    color: white;
+    background-color: black;
+    color: var(--highlight-color);
     padding: 10px 10px 10px 10px;
 }
 
