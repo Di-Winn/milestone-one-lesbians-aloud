@@ -6,8 +6,8 @@
 :root{
     --primary-font: "Bebas Neue", sans-serif;
     --secondary-font: "Inter", sans-serif;
-    --primary-color: #545454; /* Green */
-    --secondary-color: #CCCCCC; /* Grey */
+    --primary-color: #2c2b2b; /* Dark Grey */
+    --secondary-color: #CCCCCC; /* Light Grey */
     --highlight-color: #8c52ff; /* Purple */
     --highlight-color-light: #b2a1ec; /* Light Purple */
 }
@@ -390,6 +390,10 @@ h1, h2, h3, h4, h5 {
 
 #contact h2 {
     color: white;
+}
+
+#emailHelp {
+    color: var(--highlight-color-light);
 }
 
 
