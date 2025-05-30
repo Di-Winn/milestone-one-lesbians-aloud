@@ -113,16 +113,16 @@
                         <h2>Contact Form</h2>
                         <div class="row justify-content-center">
                             <div class="col-12 col-md-10 col-xl-10">
-                                <label for="name" class="form-label">Full Name:</label>
-                                <input class="form-control" id="name" name="name" type="text" required>
+                                <label for="contact-name" class="form-label">Full Name:</label>
+                                <input class="form-control" id="contact-name" name="contact-name" type="text" required>
                             </div>
                             <div class="col-12 col-md-10 col-xl-10">
-                                <label for="email" class="form-label">Email:</label>
-                                <input class="form-control" id="email" name="email" type="email" required>
+                                <label for="contact-email" class="form-label">Email:</label>
+                                <input class="form-control" id="contact-email" name="contact-email" type="email" required>
                             </div>
                             <div class="col-12 col-md-10 col-xl-10">
-                                <label for="phone" class="form-label">Phone:</label>
-                                <input class="form-control" id="phone" name="phone" type="number" required>
+                                <label for="contact-phone" class="form-label">Phone:</label>
+                                <input class="form-control" id="contact-phone" name="contact-phone" type="number" required>
                             </div>
                             <div class="col-12 col-md-10 col-xl-10">
                                 <label for="contact-type" class="form-label">Contact Type:</label>
@@ -137,7 +137,7 @@
                             </div>
                             <div class="col-12 col-md-10 col-xl-10">
                                 <label for="contact-message" class="form-label">Message:</label>
-                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                                <textarea class="form-control" rows="6" id="contact-message" name="contact-message" required></textarea>
                             </div>
                         </div>
                         <div class="button"><button type="submit" class="btn custom-button-filled">Submit</button></div>
@@ -160,8 +160,8 @@
                                 <input class="form-control" id="phone" name="phone" type="number" required>
                             </div>
                             <div class="col-12 col-md-10 col-xl-10">
-                                <label for="contact-type" class="form-label">Booking Enquiry for:</label>
-                                <select id="contact-type" class="form-select" name="contact-type" required>
+                                <label for="booking-contact-type" class="form-label">Booking Enquiry for:</label>
+                                <select id="booking-contact-type" class="form-select" name="booking-contact-type" required>
                                     <option value="" selected>Select Booking</option>
                                     <option value="leeds-theatre">Now that's what I call Lesbian Theatre, Leeds</option>
                                     <option value="corby-samba">Lesbian Samba Workshop, Corby</option>
@@ -172,8 +172,8 @@
                                 </select>
                             </div>
                             <div class="col-12 col-md-10 col-xl-10">
-                                <label for="contact-message" class="form-label">Message (including special requirements):</label>
-                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                                <label for="booking-contact-message" class="form-label">Message (including special requirements):</label>
+                                <textarea class="form-control" rows="6" id="booking-contact-message" name="booking-contact-message" required></textarea>
                             </div>
                         </div>
                         <div class="button"><button type="submit" class="btn custom-button-filled">Submit</button></div>
@@ -192,51 +192,51 @@
                 <h2>Contact Us!</h2>
             </div>
              
-        <!-- Contact Details -->
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 mb-3 mb-sm-0">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Contact Info</h3>
-                            <p><i class="fa-solid fa-phone"> 01234 567 890</i><br>
-                            <i class="fa-solid fa-envelope"> lesbiansaloud@gmail.com</i></p>
-                        </div>
+            <!-- Contact Details -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Contact Info</h3>
+                                <p><i class="fa-solid fa-phone"> 01234 567 890</i><br>
+                                <i class="fa-solid fa-envelope"> lesbiansaloud@gmail.com</i></p>
+                            </div>
 
-                        <!-- Social Icons added from Font Awesome -->
-                        <div class="social-links">
-                            <a href="https://www.facebook.com/" target="_blank" aria-label="Visit our Facebook page (link opens in an new tab)" rel="noopener">
-                            <i class="fa-brands fa-facebook"></i></a>
-                            <a href="https://x.com/" target="_blank" aria-label="Visit our X/Twitter page (link opens in an new tab)" rel="noopener">
-                            <i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="https://www.instagram.com/" target="_blank" aria-label="Visit our X/Twitter page (link opens in an new tab)" rel="noopener">
-                            <i class="fa-brands fa-instagram"></i></a>
+                            <!-- Social Icons added from Font Awesome -->
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/" target="_blank" aria-label="Visit our Facebook page (link opens in an new tab)" rel="noopener">
+                                <i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://x.com/" target="_blank" aria-label="Visit our X/Twitter page (link opens in an new tab)" rel="noopener">
+                                <i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.instagram.com/" target="_blank" aria-label="Visit our X/Twitter page (link opens in an new tab)" rel="noopener">
+                                <i class="fa-brands fa-instagram"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Newsletter sign-up allocated space -->
+                    <!-- Newsletter sign-up allocated space -->
 
-                <!-- Newletter Sign-up using a form from Bootstrap which is edited to suit -->
+                    <!-- Newletter Sign-up using a form from Bootstrap which is edited to suit -->
 
-                <div class="col-sm-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Newsletter Sign-up!</h3>
-                            <form id="email-sign-up-form" method="get" action="success.html">
-                                <div class="mb-3">
-                                    <label for="email-sign-up" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="email-sign-up" aria-describedby="emailHelp" required>
-                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                                </div>
-                                <button type="submit" class="btn custom-button-filled">Sign-up now</button>
-                            </form>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Newsletter Sign-up!</h3>
+                                <form id="email-sign-up-form" method="get" action="success.html">
+                                    <div class="mb-3">
+                                        <label for="email-sign-up" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="email-sign-up" aria-describedby="emailHelp" required>
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                    </div>
+                                    <button type="submit" class="btn custom-button-filled">Sign-up now</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </Footer>
 
     <!-- Bootstrap JS -->
