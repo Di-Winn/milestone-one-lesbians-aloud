@@ -178,6 +178,10 @@ h1, h2 {
     margin: 10px;
 }
 
+#gallery-buttons {
+    padding: 5px 5px 5px 5px;
+}
+
 
 /* Contact page layout */
 
