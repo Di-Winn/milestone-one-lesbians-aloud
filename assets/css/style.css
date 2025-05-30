@@ -21,7 +21,7 @@ body {
     padding-top: 66px; /* Added to push down the header to compensate for the fixed navbar */
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5 {
     font-family: var(--primary-font);
     color:#8c52ff;
 }
@@ -75,7 +75,7 @@ h1, h2 {
     scroll-margin-top: 4rem; /* added to stop section header being covered by the fixed navigation */
 }
 
-#creative-genres h5 {
+#creative-genres h4 {
     color: var(--highlight-color);
 }
 
@@ -100,7 +100,7 @@ h1, h2 {
     scroll-margin-top: 4rem;
 }
 
-#events h2 {
+#events h4 {
     background-color: rgba(0,0,0,.8);
     padding: 10px 10px 10px 10px;
 }
