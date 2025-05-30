@@ -161,12 +161,17 @@ h1, h2, h3, h4, h5 {
     background-color: var(--secondary-color);
 }
 
+#gallery-carousel {
+    width: 75%;
+    margin: auto;
+}
+
 #gallery-header h1 {
     background-color: rgba(0,0,0,.8);
 }
 
 #gallery img {
-    width: 100%;
+    width: 50%;
     line-height: 1em;
 }
 
