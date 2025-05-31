@@ -2,7 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Oswald:wght@200..700&display=swap');
 
+
 /* CSS Variable */
+
 :root{
     --primary-font: "Bebas Neue", sans-serif;
     --secondary-font: "Inter", sans-serif;
@@ -11,6 +13,7 @@
     --highlight-color: #8c52ff; /* Purple */
     --highlight-color-light: #b2a1ec; /* Light Purple */
 }
+
 
 /* Global styles */
 
@@ -79,6 +82,10 @@ h1, h2, h3, h4, h5 {
     scroll-margin-top: 4rem; /* added to stop section header being covered by the fixed navigation */
 }
 
+#creative-genres h3 {
+    color: var(--highlight-color);
+}
+
 #creative-genres h4 {
     color: var(--highlight-color);
 }
@@ -90,7 +97,6 @@ h1, h2, h3, h4, h5 {
 #creative-genres .card {
     margin: 1rem;
 }
-
 
 
 /* Events Section */
@@ -105,7 +111,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #events h4 {
-    background-color: var(--highlight-color-light);
+    background-color: var(--highlight-color);
     color: white;
     padding: 10px 10px 10px 10px;
 }
@@ -141,7 +147,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #get-involved h5 {
-    background-color: var(--highlight-color-light);
+    background-color: var(--highlight-color);
     color: white;
 }
 
@@ -155,7 +161,6 @@ h1, h2, h3, h4, h5 {
 
 
 /* Gallery Layout */
-
 
 #gallery-header {
     padding-top: 1rem;
@@ -418,8 +423,6 @@ h1, h2, h3, h4, h5 {
 
 
 /* Medium screens and up (min-width 768px) */
-
-
 
 @media screen and (min-width: 768px) {
     /* Make the logo fit the screen better and not too big */
