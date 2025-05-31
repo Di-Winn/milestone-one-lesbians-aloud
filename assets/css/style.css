@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5 {
 #creative-genres {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    scroll-margin-top: 5rem; /* added to stop section header being covered by the fixed navigation */
+    scroll-margin-top: 4rem; /* added to stop section header being covered by the fixed navigation */
 }
 
 #creative-genres h3 {
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5 {
     background-size: cover;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 4rem;
 }
 
 #events h4 {
