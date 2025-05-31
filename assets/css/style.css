@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5 {
     background-size: cover;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    scroll-margin-top: 4rem;
+    scroll-margin-top: 4rem; /* added to stop section header being covered by the fixed navigation */
 }
 
 #events h4 {
@@ -123,12 +123,9 @@ h1, h2, h3, h4, h5 {
 }
 
 #events p {
+    font-family: var(--secondary-font);
     background-color: var(--secondary-color);
     padding: 10px 10px 10px 10px;
-}
-
-#events p {
-    font-family: var(--secondary-font);
 }
 
 #events .table {
